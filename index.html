@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.8/dist/vue.js"></script>
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+
+</head>
+<body>
+    <div class="container">
+        <h2>VUE.JS+Firebase</h2>
+
+    </div>
+        <script src="//unpkg.com/@babel/polyfill@latest/dist/polyfill.min.js"></script>
+        <script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
+        <script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+    
+<script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyApEeSLWBcq9ld8UEp11xKUbI0A2r6cu9w",
+    authDomain: "vuejs-b355a.firebaseapp.com",
+    databaseURL: "https://vuejs-b355a.firebaseio.com",
+    projectId: "vuejs-b355a",
+    storageBucket: "vuejs-b355a.appspot.com",
+    messagingSenderId: "671642278097"
+  };
+  firebase.initializeApp(config);
+  var database = firebase.database();
+</script>
+    
+</body>
+</html>
